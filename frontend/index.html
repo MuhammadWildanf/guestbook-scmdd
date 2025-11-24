@@ -288,7 +288,7 @@
       });
 
       // kirim ke server tapi tidak memblokir tampilan
-      fetch("/submit-form", {
+      fetch("http://localhost:3003/submit-form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
